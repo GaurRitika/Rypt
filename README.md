@@ -3,6 +3,7 @@ Theory of the Project:
 We are in the process of building a blockchain-based platform that focuses on creating a seamless user experience for engaging with cryptocurrency transactions and exploring the crypto ecosystem. This project leverages blockchain technology to enable global, secure, and transparent transactions, while presenting it through an easy-to-use and visually modern interface.
 
 Key Elements of What We’re Creating:
+
 1 . Decentralized Financial Empowerment:
 The platform allows users to send and receive cryptocurrency globally, breaking traditional financial barriers. It makes digital currencies more accessible, aiming to democratize financial services by providing a simple, user-friendly interface that hides the complexities of blockchain from the user.
 
