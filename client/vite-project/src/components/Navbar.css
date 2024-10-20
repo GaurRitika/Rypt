@@ -1,0 +1,92 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark gray background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Logo Section */
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .brand-name {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: white; /* White brand name */
+    text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff; /* Neon effect */
+  }
+  
+  /* Navbar Links */
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-btn {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    padding: 8px 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-btn:hover {
+    color: #00e1ff; /* Neon blue hover */
+  }
+  
+  .login-btn {
+    padding: 8px 20px;
+    background-color: #00e1ff; /* Neon blue */
+    color: #000;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #ff00ff; /* Neon pink on hover */
+    color: #fff;
+  }
+  
+  /* Add neon glow for buttons */
+  .nav-btn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150%;
+    height: 150%;
+    background: radial-gradient(circle, rgba(0,225,255,0.5) 0%, rgba(255,0,255,0) 80%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    transform: translate(-50%, -50%);
+  }
+  
+  .nav-btn:hover::before {
+    opacity: 1;
+  }
+  
